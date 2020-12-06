@@ -1,6 +1,4 @@
 import time
-import urllib3
-
 from bs4 import BeautifulSoup
 import requests
 from twilio.rest import Client
@@ -64,4 +62,4 @@ while True:
         check_inventory(i, store[count], product)
         count += 1
     print("------------------\n")
-    time.sleep(20)
+    time.sleep(30)
